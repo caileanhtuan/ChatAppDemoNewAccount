@@ -20,7 +20,7 @@ struct TitleRow: View {
             }
             
             VStack(alignment: .leading) {
-                Text("Tuan Cai")
+                Text("Long Lam")
                     .font(.system(size: 30, weight: .bold))
                     .foregroundColor(.white)
                 HStack {

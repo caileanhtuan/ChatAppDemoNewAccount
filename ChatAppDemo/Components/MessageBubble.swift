@@ -16,7 +16,7 @@ struct MessageBubble: View {
             HStack {
                 Text(message.text)
                     .padding()
-                    .background(message.received ? Color(red: 0.7, green: 0.7, blue: 0.7) : Color(red: 0.6, green: 0.4, blue: 0.8))
+                    .background(message.received ? .red : .blue)
                     .cornerRadius(30)
             }
             .frame(maxWidth: 300, alignment: message.received ? .leading : .trailing)

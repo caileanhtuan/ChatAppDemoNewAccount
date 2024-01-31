@@ -20,7 +20,7 @@ struct ContentView: View {
                         }
                     }
                     .padding(.top, 10)
-                    .background(.white)
+                    .background(.black)
                     .cornerRadius(30, corners: [.topLeft, .topRight])
                     .onChange(of: messagesManager.lastMessageId) { id in
                         withAnimation {

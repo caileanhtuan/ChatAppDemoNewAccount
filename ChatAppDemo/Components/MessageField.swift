@@ -36,7 +36,7 @@ struct MessageField: View {
                 Image(systemName: "paperplane.fill")
                     .foregroundColor(.white)
                     .padding(10)
-                    .background(Color(red: 0.6, green: 0.4, blue: 0.8))
+                    .background(.green)
                     .cornerRadius(30)
             }
 
